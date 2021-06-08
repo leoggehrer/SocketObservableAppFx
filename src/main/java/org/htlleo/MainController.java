@@ -10,7 +10,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import org.htlleo.chatserver.SocketThread;
+import org.htlleo.client.SocketThread;
 import org.htlleo.models.Message;
 import org.htlleo.models.MessageDistributor;
 import org.htlleo.pattern.Observer;
@@ -83,7 +83,7 @@ public class MainController implements Observer, Initializable {
             txtPort.setDisable(true);
             btnStart.setDisable(true);
             btnStop.setDisable(false);
-            System.out.println( "Chat Server is running..." );
+            System.out.println( "Observable Server is running..." );
         }
     }
 

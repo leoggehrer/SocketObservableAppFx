@@ -1,4 +1,4 @@
-package org.htlleo.chatserver;
+package org.htlleo.client;
 
 import org.htlleo.models.Message;
 import org.htlleo.models.MessageDistributor;
